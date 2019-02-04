@@ -17,8 +17,13 @@
     "url": "https://github.com/olgaczaim/node-tests/issues"
   },
   "homepage": "https://github.com/olgaczaim/node-tests#readme",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.16.4"
+  },
   "devDependencies": {
-    "mocha": "^5.2.0"
+    "expect": "^1.20.2",
+    "mocha": "^5.2.0",
+    "rewire": "^4.0.1",
+    "supertest": "^3.4.2"
   }
 }
